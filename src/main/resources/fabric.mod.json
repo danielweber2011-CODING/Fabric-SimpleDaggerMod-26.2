@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "daggermod",
+	"version": "${version}",
+	"name": "DaggerMod",
+	"description": "This is Simple Mod about Daggers!",
+	"authors": [
+		"Daniel"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "MIT-license"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/daggermod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.daniel.daggermod.DaggerMod"
+		],
+		"fabric-datagen": [
+			"net.daniel.daggermod.DaggerModDataGenerator"
+		]
+	},
+	"mixins": [
+		"daggermod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
