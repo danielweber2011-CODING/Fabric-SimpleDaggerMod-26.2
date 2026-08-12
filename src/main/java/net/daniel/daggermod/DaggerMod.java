@@ -1,5 +1,6 @@
 package net.daniel.daggermod;
 
+import net.daniel.daggermod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -13,5 +14,6 @@ public class DaggerMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 }

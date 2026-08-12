@@ -1,0 +1,15 @@
+// 26.2	-999999999-01-01T00:00:00	DaggerMod/Model Definitions
+c05396998768a56dd8d032737ef17acc67a00f3e assets/daggermod/items/copper_dagger.json
+213ee8b5fe230161839b208d4b26b12fb7cb5d9a assets/daggermod/items/dagger_upgrade_template.json
+105492f0d8e97ed6b6e3ce3a245e843f9be4213b assets/daggermod/items/diamond_dagger.json
+03ba73581ed5746e03f0ed7b081e60cddcc16b35 assets/daggermod/items/gold_dagger.json
+8b556e772fa856a92df440ced27ec756252aa0a7 assets/daggermod/items/iron_dagger.json
+a291008b40373fb8f027af2d9053612d5ead5399 assets/daggermod/items/netherite_dagger.json
+c487e607310d62fb7d42f0d07c69ce2a0f95dc37 assets/daggermod/items/wooden_dagger.json
+413e2055e105881794a38b452c7d3d46bccf017d assets/daggermod/models/item/copper_dagger.json
+6f5ee7bc93c4a23d4ca66fed7a77e0a83abb185f assets/daggermod/models/item/dagger_upgrade_template.json
+e94c6be0f7423101d237f0bb26379fe9f4ad5114 assets/daggermod/models/item/diamond_dagger.json
+e79f2fb2260dddbabc03952f5a1e5500c98f7c22 assets/daggermod/models/item/gold_dagger.json
+22ebd75a194cbf5dab9cb0981082a4bedc4dbde4 assets/daggermod/models/item/iron_dagger.json
+2278b1b549ffe749b5e36836d0723821720b7da9 assets/daggermod/models/item/netherite_dagger.json
+8f8058e9e7bafee745e6a366031c8150c6e8238d assets/daggermod/models/item/wooden_dagger.json

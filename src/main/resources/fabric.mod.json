@@ -9,9 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "MIT-license"
+		"sources": "https://github.com/danielweber2011-CODING/Fabric-SimpleDaggerMod-26.2"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT-license",
 	"icon": "assets/daggermod/icon.png",
 	"environment": "*",
 	"entrypoints": {
