@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "has_woodendagger": {
+      "conditions": {
+        "items": [
+          {
+            "items": "daggermod:wooden_dagger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/adventure",
+    "description": {
+      "translate": "advancements.daggermod.descriptionermod.root"
+    },
+    "icon": {
+      "id": "daggermod:iron_dagger"
+    },
+    "title": {
+      "translate": "advancements.daggermod.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_woodendagger"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,8 +1,10 @@
 package net.daniel.daggermod;
 
 import net.daniel.daggermod.item.ModItems;
+import net.daniel.daggermod.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
@@ -15,5 +17,9 @@ public class DaggerMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+
+
+		LootTableEvents.MODIFY.register(ModLootTableModifiers::modifyLootTables)
+		;
 	}
 }

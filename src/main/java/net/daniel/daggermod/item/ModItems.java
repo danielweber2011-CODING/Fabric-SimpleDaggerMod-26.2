@@ -22,6 +22,11 @@ public class ModItems {
     public static Item DIAMOND_DAGGER = registerItem("diamond_dagger", properties -> new Item(properties.sword(ToolMaterial.DIAMOND,2,-1.2f)));
     public static Item NETHERITE_DAGGER = registerItem("netherite_dagger", properties -> new Item(properties.sword(ToolMaterial.NETHERITE,2,-1.2f)));
 
+
+    public static ResourceKey<Item> getRK(Item item) {
+        return BuiltInRegistries.ITEM.getResourceKey(item).get();
+    }
+
     public static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(DaggerMod.MOD_ID, name),
                 function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(DaggerMod.MOD_ID, name)))));
@@ -39,7 +44,7 @@ public class ModItems {
             output.accept(NETHERITE_DAGGER);
 
         });
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(output -> {
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
             output.accept(DAGGER_UPGRADE_TEMPLATE);
         });
     }

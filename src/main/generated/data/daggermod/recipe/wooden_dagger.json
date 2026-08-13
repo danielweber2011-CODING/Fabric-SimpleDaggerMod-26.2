@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "DaggerMod",
+  "key": {
+    "S": "minecraft:stick",
+    "W": "#minecraft:planks"
+  },
+  "pattern": [
+    "  W",
+    " W ",
+    "S  "
+  ],
+  "result": {
+    "id": "daggermod:wooden_dagger"
+  }
+}

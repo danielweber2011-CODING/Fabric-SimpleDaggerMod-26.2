@@ -1,0 +1,32 @@
+{
+  "parent": "daggermod:daggermod/root",
+  "criteria": {
+    "has_goldendagger": {
+      "conditions": {
+        "items": [
+          {
+            "items": "daggermod:gold_dagger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.daggermod.getGoldDagger.description"
+    },
+    "icon": {
+      "id": "daggermod:gold_dagger"
+    },
+    "title": {
+      "translate": "advancements.daggermod.getGoldDagger.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_goldendagger"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

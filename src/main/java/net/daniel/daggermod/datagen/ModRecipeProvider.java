@@ -9,6 +9,7 @@ import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.SmithingTemplateItem;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -22,12 +23,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         return new RecipeProvider(registries, output) {
             @Override
             public void buildRecipes() {
+
+
                 shaped(RecipeCategory.COMBAT, ModItems.WOODEN_DAGGER)
-                        .pattern("S")
-                        .pattern("S")
-                        .pattern("S")
+                        .pattern("  W")
+                        .pattern(" W ")
+                        .pattern("S  ")
                         .define('S', Items.STICK)
+                        .define('W', ItemTags.PLANKS)
                         .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                        .group("DaggerMod")
                         .save(output);
             }
         };

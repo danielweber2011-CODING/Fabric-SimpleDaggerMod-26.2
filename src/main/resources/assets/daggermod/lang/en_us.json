@@ -2,8 +2,17 @@
   "item.daggermod.wooden_dagger": "Wooden Dagger",
   "item.daggermod.copper_dagger": "Copper Dagger",
   "item.daggermod.iron_dagger": "Iron Dagger",
-  "item.daggermod.gold_dagger": "Gold Dagger",
+  "item.daggermod.gold_dagger": "Golden Dagger",
   "item.daggermod.diamond_dagger": "Diamond Dagger",
   "item.daggermod.netherite_dagger": "Netherite Dagger",
-  "item.daggermod.dagger_upgrade_template": "Dagger Upgrade Template"
+  "item.daggermod.dagger_upgrade_template": "Dagger Upgrade Template",
+
+  "advancements.daggermod.root.title": "SimpleDaggers",
+  "advancements.daggermod.descriptionermod.root": "Craft your first Dagger!",
+
+  "advancements.daggermod.getGoldDagger.title": "Get an §6GOLDEN§r DAGGER",
+  "advancements.daggermod.getGoldDagger.description": "Why can't you craft this?",
+
+  "advancements.daggermod.getNetherDagger.title": "Serious Killer",
+  "advancements.daggermod.getNetherDagger.description": "Craft an Netherite Dagger"
 }
